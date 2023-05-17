@@ -1,0 +1,7 @@
+import React from 'react';
+
+const Hobby = () => {
+  return <h2>Hobby</h2>;
+};
+
+export default Hobby;
