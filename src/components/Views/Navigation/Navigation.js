@@ -5,9 +5,11 @@ import styles from './Navigation.module.scss';
 const Navigation = () => {
   return (
     <nav className={styles.navigation}>
-      <Link to="/" className={styles.titleLink}>
-        <h2 className={styles.title}>Marek Skolik - Junior Frontend/Fullstack Developer</h2>
-      </Link>
+      <h2 className={styles.title}>
+        <Link to="/" className={styles.titleLink}>
+          Marek Skolik - Junior Frontend/Fullstack Developer
+        </Link>
+      </h2>
       <ul className={styles.navList}>
         <li>
           <Link to="/about" className={styles.navLink}>O mnie</Link>

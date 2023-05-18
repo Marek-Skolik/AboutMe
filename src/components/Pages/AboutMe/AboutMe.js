@@ -24,8 +24,8 @@ const AboutMe = () => {
       </div>
       <div className={styles.flexContainer}>
         <div className={styles.text}>
-          <p>Pracę zacząłem w w 2016 roku i trwa do dzisiaj. Od dwóch lat interesuję się programowaniem. Korzystałem z różnych szkoleń na YouTube, ale postanowiłem, że muszę te informacje usystematyzować oraz określić. <br/>
-            Podjąłem również decyczję o przebranżowieniu się. Postanowiłem robić to co sprawia mi przyjemność, mam szanse rozwoju oraz jest przyszłościowe. Wziałem, więc udział w Bootcamp-ie Kodilli na Fullstack Developera. <br />
+          <p>Pracę zacząłem w w 2016 roku i trwa do dzisiaj. W międzyczasie zająłem się marketingiem sieciowym. Byłem liderem 12 osobowej grupy sprzedawców. Od dwóch lat interesuję się programowaniem. Korzystałem z różnych szkoleń na YouTube, ale postanowiłem, że muszę te informacje usystematyzować oraz określić. <br/>
+            Podjąłem również decyczję o przebranżowieniu się. Postanowiłem robić to co sprawia mi przyjemność, dzięki czemu mam szanse rozwoju oraz jest przyszłościowe. Wziałem, więc udział w Bootcamp-ie Kodilli na Fullstack Developera. <br />
             Kurs trwał 10 miesięcy, w tym 800h nauki i 90% praktyki. Poznałem wiele technologi z zakresu Frontend-u i Backend-u. Chetnie rozwinę się w obu kierunkach, jednak najlepiej czuję się we Froncie.<br/>
             Mam nadzieję na znalezienie swojej pierwszej, wymarzonej pracy w  branży IT i zdobycie doświadczenia komercyjnego.</p>
         </div>

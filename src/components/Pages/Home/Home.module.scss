@@ -4,6 +4,7 @@
   background-color: black;
   height: 100%;
   font-family: 'Roboto', sans-serif;
+  border-radius: 20px;
 }
 
 .container {
@@ -17,7 +18,7 @@
 .image {
   width: 50%;
   height: auto;
-  max-width: 500px; /* Added max-width */
+  max-width: 500px;
   object-fit: cover;
 }
 
