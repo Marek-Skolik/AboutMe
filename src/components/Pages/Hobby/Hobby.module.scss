@@ -1,0 +1,49 @@
+.container {
+    background-color: black;
+    border-radius: 20px;
+  }
+  
+  .hobby {
+    max-width: 60%;
+    margin: auto;
+    margin-bottom: 5%;
+    opacity: 0;
+    transform: translateX(100%);
+    transition: opacity 1s, transform 1s;
+  }
+  
+  .animate {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  
+  .carouselItem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    padding: 5%;
+  }
+  
+  .carouselImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .hobby {
+      max-width: 90%;
+      transform: translateY(100%);
+    }
+  
+    .animate {
+      transform: translateY(0);
+    }
+  
+    .carouselItem {
+      height: 300px;
+      padding: 3%;
+    }
+  }

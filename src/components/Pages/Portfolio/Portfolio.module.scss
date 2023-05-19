@@ -1,23 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 .portfolio {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border-radius: 20px;
+  background-color: black;
+}
+
+.project {
+  width: 30%;
+  margin: 8%;
+  background-color: darkcyan;
+  color: white;
+  padding: 20px;
+  font-family: 'Roboto', sans-serif;
+  border-radius: 20px;
+  animation: slide-in 1s ease-out;
+}
+
+.project img {
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+}
+
+.project h3 {
+  margin-top: 10px;
+}
+
+.project p {
+  margin-top: 5px;
+}
+
+@keyframes slide-in {
+  0% {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .portfolio {
+    flex-direction: column;
+    align-items: center;
   }
   
   .project {
-    width: 30%;
-    margin-bottom: 20px;
+    width: 80%;
+    margin: 4%;
+    animation: slide-in-mobile 1s ease-out;
   }
   
-  .project img {
-    width: 100%;
-    height: auto;
+  @keyframes slide-in-mobile {
+    0% {
+      opacity: 0;
+      transform: translateY(50%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
   }
-  
-  .project h3 {
-    margin-top: 10px;
-  }
-  
-  .project p {
-    margin-top: 5px;
-  }
+}
